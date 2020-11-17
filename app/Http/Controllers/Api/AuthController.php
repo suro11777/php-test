@@ -43,7 +43,7 @@ class AuthController extends Controller
             ],
         ]);
 
-        return response()->json(['status' => 200, 'user' => $user, (string) $response->getBody()]);
+        return response()->json(['user' => $user, (string) $response->getBody()],200);
     }
 
     /**
