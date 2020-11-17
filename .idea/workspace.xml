@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="204f74d2-ac65-41ba-bae0-b099044f485c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/BaseController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/ApiAuth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Api/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Api/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Services/Api/BaseService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Services/Api/CategoryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Services/Api/ProductService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Api/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Api/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Api/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +159,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers/Api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Middleware" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -164,6 +167,7 @@
       <recent name="C:\xampp\htdocs\php-test\app\Models\Api" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\php-test\app\Http\Middleware" />
       <recent name="C:\xampp\htdocs\php-test\app\Http\Controllers\Api" />
     </key>
   </component>
@@ -196,7 +200,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605599963284</updated>
-      <workItem from="1605599964772" duration="3462000" />
+      <workItem from="1605599964772" duration="14756000" />
     </task>
     <servers />
   </component>
@@ -204,13 +208,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="277" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605603400602">
+    <state x="690" y="277" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605615232638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="277" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605603400602" />
+    <state x="690" y="277" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605615232638" />
+    <state x="757" y="354" key="NewPhpClassDialog" timestamp="1605606088453">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="757" y="354" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605606088453" />
     <state x="605" y="252" width="710" height="536" key="find.popup" timestamp="1605603639541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="605" y="252" width="710" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605603639541" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1605605876876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605605876876" />
   </component>
 </project>
